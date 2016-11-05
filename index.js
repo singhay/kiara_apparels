@@ -32,6 +32,6 @@ app.use('/*', function(req, res){
 
 
 server.timeout = 0;
-server.listen(8080, function() {
+server.listen(process.env.PORT || 8080, function() {
   console.log('Listening on port %d', server.address().port);
 });
