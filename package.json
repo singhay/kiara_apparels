@@ -1,0 +1,30 @@
+{
+  "name": "kiara_apparels",
+  "version": "1.0.0",
+  "description": "Website from for the brand kiara apparels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhay/kiara_apparels.git"
+  },
+  "keywords": [
+    "apparels",
+    "clothing",
+    "saree",
+    "suits"
+  ],
+  "author": "Ayush K. Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/singhay/kiara_apparels/issues"
+  },
+  "homepage": "https://github.com/singhay/kiara_apparels#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "forever": "^0.15.3"
+  }
+}
